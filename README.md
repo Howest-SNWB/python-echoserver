@@ -3,6 +3,9 @@
 Dit eenvoudig Python script wordt gebruikt om een webpagina te tonen aan een client.
 _This is a simple Python script that displays HTTP information to a client._
 
+> [!WARNING]
+> Not for production use!
+
 ## Gebruik / _Usage_
 
 ```
