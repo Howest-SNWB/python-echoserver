@@ -45,14 +45,11 @@ class customRequestHandler(BaseHTTPRequestHandler):
         </head>
         <body>
             <h1>Echo Server</h1>
-
             <h2>Request Information</h2>
             <pre>Request: {self.requestline} - [{self.log_date_time_string()}]</pre>
             <pre>Client: {self.client_address[0]} - {self.client_address[1]}</pre>
-
             <h3>Request Headers</h3>
             <pre>{self.headers}</pre>
-
             <h2>Host Information</h2>
             <p>Hostname: {host_name} | FQDN:{fqdn}</p>
             <p>Server IP: <code>{host_socket[0]}</code> | Port: <code>{host_socket[1]}</code></p>
