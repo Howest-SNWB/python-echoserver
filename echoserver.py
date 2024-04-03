@@ -51,11 +51,11 @@ class customRequestHandler(BaseHTTPRequestHandler):
             <h3>Request Headers</h3>
             <pre>{self.headers}</pre>
             <h2>Host Information</h2>
-            <p>Hostname: {host_name} | FQDN:{fqdn}</p>
+            <p>Hostname: <code>{host_name}</code> | FQDN: <code>{fqdn}</code></p>
             <p>Server IP: <code>{host_socket[0]}</code> | Port: <code>{host_socket[1]}</code></p>
-            <p>Server: {self.server_version} | Version: {self.sys_version}</p>
-            <p>OS: {os_name} | Version: {os_version}</p>
-            <p>Login: {user_name}</p>
+            <p>Server: <code>{self.server_version}</code> | Version: <code>{self.sys_version}</code></p>
+            <p>OS: <code>{os_name}</code> | Version: <code>{os_version}</code></p>
+            <p>Login: <code>{user_name}</code></p>
         </body>
         </html>
         """
